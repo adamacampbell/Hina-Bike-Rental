@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14490.98" systemVersion="18D109" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="LoginDetails" representedClassName="LoginDetails" syncable="YES" codeGenerationType="class">
+        <attribute name="password" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="resvid" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="token" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="username" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="RentalDetails" representedClassName="RentalDetails" syncable="YES" codeGenerationType="class">
+        <attribute name="bikeID" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="bikeType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="costPM" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="totalCost" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
+    </entity>
+    <entity name="ReservationDetails" representedClassName="ReservationDetails" syncable="YES" codeGenerationType="class">
+        <attribute name="bikeID" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="bikeType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="costPM" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="location" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="resGear" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="resvid" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="start" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="totalCost" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="LoginDetails" positionX="-54" positionY="-9" width="128" height="105"/>
+        <element name="RentalDetails" positionX="-36" positionY="36" width="128" height="105"/>
+        <element name="ReservationDetails" positionX="-45" positionY="45" width="128" height="165"/>
+    </elements>
+</model>
